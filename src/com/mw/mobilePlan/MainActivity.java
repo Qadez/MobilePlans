@@ -46,7 +46,7 @@ public class MainActivity extends Activity
 		// CallLog.Calls.CONTENT_URI, null, null, null, null);
 
 		Calendar cal = Calendar.getInstance();
-		cal.set(2014, Calendar.MARCH, 12, 12, 0, 0);
+		cal.set(2014, Calendar.FEBRUARY, 12, 12, 0, 0);
 		
 		Date afterDate = cal.getTime();
 		cal.set(2014, Calendar.MARCH, 12, 19, 0, 0);
