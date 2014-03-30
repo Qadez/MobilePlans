@@ -44,10 +44,10 @@ public class MainActivity extends Activity
 		StringBuffer sb = new StringBuffer();
 		// Cursor managedCursor = getContentResolver().query(
 		// CallLog.Calls.CONTENT_URI, null, null, null, null);
-
+		// Comment To Test Sync
 		Calendar cal = Calendar.getInstance();
 		cal.set(2014, Calendar.FEBRUARY, 12, 12, 0, 0);
-		
+
 		Date afterDate = cal.getTime();
 		cal.set(2014, Calendar.MARCH, 12, 19, 0, 0);
 		Date beforeDate = cal.getTime();
